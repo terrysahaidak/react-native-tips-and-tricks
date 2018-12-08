@@ -1,8 +1,8 @@
-# React Native tips and tricks
+# React Native tips and tricks <!-- omit in toc -->
 
 > A curated list of helpful tips and trick for react native developers.
 
-# Table of contents
+## Table of contents <!-- omit in toc -->
 
 - [Android specific](#android-specific)
   - [Title for android example](#title-for-android-example)
@@ -12,22 +12,21 @@
   - [Title for crossplatform example](#title-for-crossplatform-example)
 - [License](#license)
 
-# Android specific
+## Android specific
+
+### Title for android example
 
 
-## Title for android example
+## iOS specific
+
+### Title for ios example
 
 
-# iOS specific
+## Crossplatform
 
-## Title for ios example
-
-
-# Crossplatform
-
-## Title for crossplatform example
+### Title for crossplatform example
 
 
-# License
+## License
 
-MIT
+[MIT](LICENSE)
