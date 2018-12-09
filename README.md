@@ -9,7 +9,6 @@
 - [iOS specific](#ios-specific)
   - [Title for ios example](#title-for-ios-example)
 - [Crossplatform](#crossplatform)
-  - [Title for crossplatform](#title-for-crossplatform)
   - [FlatList last item margin bottom](#flatlist-last-item-margin-bottom)
 - [Bundling](#bundling)
   - [How to use symlinks](#how-to-use-symlinks)
@@ -25,8 +24,6 @@
 ### Title for ios example
 
 ## Crossplatform
-
-### Title for crossplatform
 
 ### FlatList last item margin bottom
 
