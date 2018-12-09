@@ -5,10 +5,10 @@
 ## Table of contents <!-- omit in toc -->
 
 - [Android specific](#android-specific)
-  - [Title for android example](#title-for-android-example)
+  - [Ripple goes outside of the TouchableNativeFeedback with border radius](#ripple-goes-outside-of-the-touchablenativefeedback-with-border-radius)
 - [iOS specific](#ios-specific)
   - [Title for ios example](#title-for-ios-example)
-- [Crossplatform](#crossplatform)
+- [Cross-platform](#cross-platform)
   - [FlatList last item margin bottom](#flatlist-last-item-margin-bottom)
 - [Bundling](#bundling)
   - [How to use symlinks](#how-to-use-symlinks)
@@ -17,13 +17,36 @@
 
 ## Android specific
 
-### Title for android example
+### Ripple goes outside of the TouchableNativeFeedback with border radius
+
+__Problem:__
+
+Sometimes you need to implement rounded buttons with ripple animation. You will go ahead and use a `TouchableNativeFeedback` with some `borderRadius`. But you'll notice that ripple animation doesn't follow your border radius and goes outside of rounded container.
+
+<img src="/images/touchable-native-feedback-ripple-border-radius-problem.jpg" alt="Touchable native feedback ripple with border radius problem screenshot" width="400">
+
+__Solution:__
+
+To fix that wrap your `TouchableNativeFeedback` with another `View` with some styles:
+
+```
+{
+  borderRadius: 25, // replace it with a border radius of your button
+  backgroundColor: 'transparent',
+}
+```
+
+<img src="/images/touchable-native-feedback-ripple-border-radius-solution.jpg" alt="Touchable native feedback ripple with border radius solution screenshot" width="400">
+
+__Demo:__
+
+[Run snack with the demo](https://snack.expo.io/@terrysahaidak/supportive-celery).
 
 ## iOS specific
 
 ### Title for ios example
 
-## Crossplatform
+## Cross-platform
 
 ### FlatList last item margin bottom
 
