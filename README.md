@@ -5,19 +5,19 @@
 ## Table of contents <!-- omit in toc -->
 
 - [Android specific](#android-specific)
-  - [Ripple goes outside of the TouchableNativeFeedback with border radius](#ripple-goes-outside-of-the-touchablenativefeedback-with-border-radius)
+  - [*Ripple goes outside of the TouchableNativeFeedback with border radius*](#ripple-goes-outside-of-the-touchablenativefeedback-with-border-radius)
 - [iOS specific](#ios-specific)
-  - [Title for ios example](#title-for-ios-example)
+  - [*Title for ios example*](#title-for-ios-example)
 - [Cross-platform](#cross-platform)
-  - [FlatList last item margin bottom](#flatlist-last-item-margin-bottom)
+  - [*FlatList last item margin bottom*](#flatlist-last-item-margin-bottom)
 - [Bundling](#bundling)
-  - [How to use symlinks](#how-to-use-symlinks)
-  - [Absolute imports](#absolute-imports)
+  - [*How to use symlinks*](#how-to-use-symlinks)
+  - [*Absolute imports*](#absolute-imports)
 - [License](#license)
 
 ## Android specific
 
-### Ripple goes outside of the TouchableNativeFeedback with border radius
+### *Ripple goes outside of the TouchableNativeFeedback with border radius*
 
 __Problem:__
 
@@ -44,11 +44,11 @@ __Demo:__
 
 ## iOS specific
 
-### Title for ios example
+### *Title for ios example*
 
 ## Cross-platform
 
-### FlatList last item margin bottom
+### *FlatList last item margin bottom*
 
 __Problem:__
 
@@ -77,7 +77,7 @@ __Related issues:__
 
 ## Bundling
 
-### How to use symlinks
+### *How to use symlinks*
 
 __Problem:__
 
@@ -94,7 +94,7 @@ To fix that you'll have to:
 
 It will generate you a `rn-cli.config.js` file with all the instructions for metro how to resolve symlinks and build the bundle.
 
-### Absolute imports
+### *Absolute imports*
 
 __Problem:__
 
