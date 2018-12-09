@@ -10,6 +10,7 @@
   - [Title for ios example](#title-for-ios-example)
 - [Crossplatform](#crossplatform)
   - [Title for crossplatform](#title-for-crossplatform)
+  - [FlatList last item margin bottom](#flatlist-last-item-margin-bottom)
 - [Bundling](#bundling)
   - [How to use symlinks](#how-to-use-symlinks)
 - [License](#license)
@@ -25,6 +26,32 @@
 ## Crossplatform
 
 ### Title for crossplatform
+
+### FlatList last item margin bottom
+
+[Related issue](https://github.com/facebook/react-native/issues/15707)
+
+Sometimes you might want to add an extra whitespace in the bottom of your FlatList. You will see that neither adding `paddingBottom` to the `style` property of the FlatList nor adding extra margin to your list items makes any effect.
+
+__Problem:__
+
+<img src="/images/flatlist-last-item-margin-bottom-problem.jpg" alt="Problem Screenshot" width="400">
+
+
+The solution to this problem is to add `paddingBottom` style to the `contentContainerStyle`. i.e.:
+
+```
+<FlatList
+  contentContainerStyle={{paddingBottom: 20}}
+  data={data}
+  renderItem={renderItem}
+  // ...
+/>
+```
+
+__Result:__
+
+<img src="/images/flatlist-last-item-margin-bottom-result.jpg" alt="Result Screenshot" width="400">
 
 ## Bundling
 
