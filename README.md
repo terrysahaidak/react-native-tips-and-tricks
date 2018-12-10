@@ -30,10 +30,14 @@ __Solution:__
 To fix that wrap your `TouchableNativeFeedback` with another `View` with some styles:
 
 ```js
-{
-  borderRadius: 25, // replace it with a border radius of your button
+<View style={{
+  borderRadius: 0,
   backgroundColor: 'transparent',
-}
+}}>
+  <TouchableNativeFeedback>
+    {/* all your content goes here... */}
+  </TouchableNativeFeedback>
+</View>
 ```
 
 <img src="/images/touchable-native-feedback-ripple-border-radius-solution.jpg" alt="Touchable native feedback ripple with border radius solution screenshot" width="400">
