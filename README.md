@@ -107,7 +107,7 @@ Module imports in your project are usually separated in two types:
 - import npm modules which are resolved relatively to the `node_modules` folder
 - import your own modules
 
-Doing the second, you will always find something like this `import { SomeComponent } from '../SomeComponent';` and it is ok for smaller projects or when you have a relatively independent module. But as your project start to grow, your imports may become a hell: `import { doSomething } from '../../../../../../../some-module';` and it is extremally hard to read or follow this path in your IDE to find the right file. Furthermore, your import will fail if you move dependent file somewhere else during a refactoring.
+Doing the second, you will always find something like this `import { SomeComponent } from '../SomeComponent';` and it is ok for smaller projects or when you have a relatively independent module. But as your project start to grow, your imports may become a hell: `import { doSomething } from '../../../../../../../some-module';` and it is extremely hard to read or follow this path in your IDE to find the right file. Furthermore, your import will fail if you move dependent file somewhere else during a refactoring.
 
 __Solution:__
 
